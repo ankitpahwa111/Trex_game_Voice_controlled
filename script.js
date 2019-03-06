@@ -12,7 +12,7 @@ window.onload = function () {
     setInterval(update, 20);
   }
   startGame();
-
+  console.log('hey there ')
   let jump = document.getElementById('jump')
   function create(x, y, type, height, width) {
     this.type = type;
